@@ -2,9 +2,9 @@
 project:
   wokwi_id:     394640918790880257       # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "IFSC Keypad Locker"      # Project title
-  author:       "Roddy;Gabriel Mota; Luis Davi Paganella; Vinicius Westphal De Paula; "      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  author:       "Roddy Romero;Gabriel Mota; Luis Davi Paganella; Vinicius Westphal De Paula; "      # Your name
+  discord:      "None"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "4 digit Locker of an ordinary 4x4 contact keypad (based on Arduino keypad)"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     100       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -14,24 +14,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "0"
+  ui[1]: "1"
+  ui[2]: "2"
+  ui[3]: "3"
+  ui[4]: "4"
+  ui[5]: "5"
+  ui[6]: "6"
+  ui[7]: "7"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "0"
+  uo[1]: "1"
+  uo[2]: "2"
+  uo[3]: "3"
+  uo[4]: "4"
+  uo[5]: "5"
+  uo[6]: "6"
+  uo[7]: "7"
 
   # Bidirectional pins
   uio[0]: ""
