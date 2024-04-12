@@ -34,9 +34,6 @@ The last register of the "Password Register" sends a signal to the state control
 - 1 Step Button
 - Couple of LEDs
 
-## Pictures
-![](https://github.com/luisdavikp/tt06-IFSC_Keyboard_Locker/blob/main/diagram.png)
-
 ## I/O
 ### inputs:
 - VCC
