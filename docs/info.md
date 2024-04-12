@@ -34,33 +34,5 @@ The last register of the "Password Register" sends a signal to the state control
 - 1 Step Button
 - Couple of LEDs
 
-## I/O
-### inputs:
-- VCC
-- RESET
-- GND
-- Keypad Column pin 1
-- Keypad Column pin 2
-- Keypad Column pin 3
-- Keypad Column pin 4
-- none
- ### outputs:
-- Keypad Row pin 1
-- Keypad Row pin 2
-- Keypad Row pin 3
-- Keypad Row pin 4
-- none
-- Locker State (LED 1)
-- Registered Password Signal (LED 2)
-- Line Verifier (LED 4)
-  ### bidirectional:
-- none
-- none
-- none
-- none
-- none
-- none
-- none
-- none
-
-picture:      "diagram.png" 
+## Diagram
+![Diagram](diagram.png "Diagram")
