@@ -3,7 +3,7 @@
 # IFSC Keyboard Locker
 A lock that receives a 4 digit entry combination from a keyboard.
 
-Wokwi link: https://wokwi.com/394640918790880257
+Wokwi link: https://wokwi.com/projects/394640918790880257
 ## How does it work?
 The circuit consists of 8 input and output pins. 4 input and output pins are reserved for the 4 x 4 matrix keypad. The rows are connected to the output (0,1,2,3) while the columns are connected to the inputs (3,4,5,6). The circuit is powered at input pin 0. A high clock signal is recommended to prevent delays when keys are pressed, so the frequency was set as 100 Hz. Pins 1 and 2 are used for setting and resetting the circuit's flip-flops. This circuit does not require setting any flip-flops, so this input should be grounded. The Reset should be connected to a button because every time the circuit is started for the first time, the flip-flops may start with random states, which can impede the correct operation of the circuit. Therefore, the button is used to reset it the first time it is used and to be able to register a new password. Output pin 6 is the signal indicating whether a password is registered. Output pin 5 indicates the state of the lock; if the entered password matches the registered password, the signal is positive. Pin 7 is a verification signal indicating that the circuit is operating correctly.
 
