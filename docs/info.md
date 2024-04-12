@@ -44,7 +44,6 @@ The last register of the "Password Register" sends a signal to the state control
 - Keypad Column pin 3
 - Keypad Column pin 4
 - none
-  
  ### outputs:
 - Keypad Row pin 1
 - Keypad Row pin 2
@@ -54,7 +53,6 @@ The last register of the "Password Register" sends a signal to the state control
 - Locker State (LED 1)
 - Registered Password Signal (LED 2)
 - Line Verifier (LED 4)
-
   ### bidirectional:
 - none
 - none
@@ -64,3 +62,5 @@ The last register of the "Password Register" sends a signal to the state control
 - none
 - none
 - none
+
+picture:      "diagram.png" 
