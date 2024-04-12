@@ -20,7 +20,7 @@ pinout:
   ui[3]: "Keypad Column pin 1"
   ui[4]: "Keypad Column pin 2"
   ui[5]: "Keypad Column pin 3"
-  ui[6]: "Keypad Column pin 1"
+  ui[6]: "Keypad Column pin 4"
   ui[7]: ""
 
   # Outputs
