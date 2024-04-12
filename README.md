@@ -25,7 +25,7 @@ When the key is released, the column is de-energized, and then the "button press
 The last register of the "Password Register" sends a signal to the state control flip-flop, which is then set and starts blocking any clock from that set of registers. This activates the "Password Attempt" mode, where now the clock step is only for this other set of registers. When the same 4 digits are pressed in the exact order as those registered, a high signal is sent at the output, indicating that the password is correct.
 
 ## Pictures
-![](https://github.com/luisdavikp/tt06-IFSC_Keyboard_Locker/blob/main/Diagram.jpg)
+![](https://github.com/luisdavikp/tt06-IFSC_Keyboard_Locker/blob/main/diagram.png)
 
 ## I/O
 ### inputs:
