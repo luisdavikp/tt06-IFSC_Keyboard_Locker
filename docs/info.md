@@ -34,5 +34,4 @@ The last register of the "Password Register" sends a signal to the state control
 - 1 Step Button
 - Couple of LEDs
 
-## Diagram
 ![Diagram](diagram.png "Diagram")
