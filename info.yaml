@@ -2,7 +2,7 @@
 project:
   wokwi_id:     394640918790880257       # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "IFSC Keypad Locker"      # Project title
-  author:       "Roddy Romero;Gabriel Mota; Luis Davi Paganella; Vinicius Westphal De Paula; "      # Your name
+  author:       "Roddy Romero; Gabriel Mota; Luis Davi Paganella; Vinicius Westphal De Paula; "      # Your name
   discord:      "None"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "4 digit Locker of an ordinary 4x4 contact keypad (based on Arduino keypad)"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
